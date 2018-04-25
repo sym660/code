@@ -1,0 +1,62 @@
+=================
+工具使用
+=================
+
+#######################
+git 配置alias
+
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.br branch
+
+#######################
+perf 工具 性能分析
+
+perf record
+pref report
+perf top
+perf stat
+
+开源方案：baidu-rpc
+
+#######################
+pstack pstree
+
+pstack <process-id>
+命令可显示每个进程的栈跟踪
+TODO
+
+#######################
+ssh 配置技巧
+	1. 多条连接共享
+		.ssh/config
+			ControlMaster auto
+			ControlPath /tmp/ssh_mux_%h_%p_%r
+	2. 长链连接
+			ControlPersist 4h
+	3. 免密码登录
+			ssh-keygen
+	4. 拷贝公钥到目标机器
+			ssh-copy-id smylers@compo.example.org
+			$ < ~/.ssh/id_rsa.pub ssh clegg.example.org ‘mkdir -p .ssh; cat >> .ssh/authorized_keys; chmod go-w .ssh .ssh/authorized_keys’
+	5. 主机别名
+		.ssh/config
+			Host dev
+			HostName dev.internal.example.com
+		通配符分组：
+			Host dev intranet backup
+			HostName %h.internal.example.com
+			Host www* mail
+			HostName %h.example.com
+
+	6. 省略用户名
+		Host www* mail
+		HostName %h.example.com
+		User simon
+
+#######################
+#######################
+#######################
+#######################
+
