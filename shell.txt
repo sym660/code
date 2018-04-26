@@ -1,0 +1,18 @@
+=================
+Shell相关
+=================
+
+#######################
+Shell 数组
+
+clusters=("Sandbox" "Guangzhou" "Suzhou" "Beijing-A" "Nanjing-A" "Nanjing-B")
+for cluster in ${clusters[@]};do
+    echo ===================do $cluster
+    cd $cluster
+done
+
+#######################
+#######################
+#######################
+#######################
+
