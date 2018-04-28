@@ -1,9 +1,9 @@
 =================
-¹¤¾ßÊ¹ÓÃ
+å·¥å…·ä½¿ç”¨
 =================
 
 #######################
-git ÅäÖÃalias
+git é…ç½®alias
 
 git config --global alias.st status
 git config --global alias.co checkout
@@ -11,46 +11,46 @@ git config --global alias.ci commit
 git config --global alias.br branch
 
 #######################
-perf ¹¤¾ß ĞÔÄÜ·ÖÎö
+perf å·¥å…· æ€§èƒ½åˆ†æ
 
 perf record
 pref report
 perf top
 perf stat
 
-¿ªÔ´·½°¸£ºbaidu-rpc
+å¼€æºæ–¹æ¡ˆï¼šbaidu-rpc
 
 #######################
 pstack pstree
 
 pstack <process-id>
-ÃüÁî¿ÉÏÔÊ¾Ã¿¸ö½ø³ÌµÄÕ»¸ú×Ù
+å‘½ä»¤å¯æ˜¾ç¤ºæ¯ä¸ªè¿›ç¨‹çš„æ ˆè·Ÿè¸ª
 TODO
 
 #######################
-ssh ÅäÖÃ¼¼ÇÉ
-	1. ¶àÌõÁ¬½Ó¹²Ïí
+ssh é…ç½®æŠ€å·§
+	1. å¤šæ¡è¿æ¥å…±äº«
 		.ssh/config
 			ControlMaster auto
 			ControlPath /tmp/ssh_mux_%h_%p_%r
-	2. ³¤Á´Á¬½Ó
+	2. é•¿é“¾è¿æ¥
 			ControlPersist 4h
-	3. ÃâÃÜÂëµÇÂ¼
+	3. å…å¯†ç ç™»å½•
 			ssh-keygen
-	4. ¿½±´¹«Ô¿µ½Ä¿±ê»úÆ÷
+	4. æ‹·è´å…¬é’¥åˆ°ç›®æ ‡æœºå™¨
 			ssh-copy-id smylers@compo.example.org
-			$ < ~/.ssh/id_rsa.pub ssh clegg.example.org ¡®mkdir -p .ssh; cat >> .ssh/authorized_keys; chmod go-w .ssh .ssh/authorized_keys¡¯
-	5. Ö÷»ú±ğÃû
+			$ < ~/.ssh/id_rsa.pub ssh clegg.example.org â€˜mkdir -p .ssh; cat >> .ssh/authorized_keys; chmod go-w .ssh .ssh/authorized_keysâ€™
+	5. ä¸»æœºåˆ«å
 		.ssh/config
 			Host dev
 			HostName dev.internal.example.com
-		Í¨Åä·û·Ö×é£º
+		é€šé…ç¬¦åˆ†ç»„ï¼š
 			Host dev intranet backup
 			HostName %h.internal.example.com
 			Host www* mail
 			HostName %h.example.com
 
-	6. Ê¡ÂÔÓÃ»§Ãû
+	6. çœç•¥ç”¨æˆ·å
 		Host www* mail
 		HostName %h.example.com
 		User simon

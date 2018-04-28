@@ -1,12 +1,12 @@
 =================
-存储相关
+瀛樺偍鐩稿叧
 =================
 
 #######################
-key value 分离
+key value 鍒嗙
 
 WiscKey: Separating Keys from Values in SSD-Conscious Storage
-文章：https://www.cnblogs.com/fuzhe1989/p/7763612.html
+鏂囩珷锛歨ttps://www.cnblogs.com/fuzhe1989/p/7763612.html
 
 #######################
 #######################

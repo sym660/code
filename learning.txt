@@ -1,8 +1,8 @@
 =================
-Ñ§Ï°Ïà¹ØµÄÍøÕ¾¹¤¾ß
+å­¦ä¹ ç›¸å…³çš„ç½‘ç«™å·¥å…·
 =================
 
 #######################
-IBM  developerWorks ¿ª·¢ËùĞèµÄ½Ì³Ì/¹¤¾ß/ÉçÇø
+IBM  developerWorks å¼€å‘æ‰€éœ€çš„æ•™ç¨‹/å·¥å…·/ç¤¾åŒº
 
 https://www.ibm.com/developerworks/cn/?lnk=mdev_dw_cnzh&lnk2=learn
