@@ -32,7 +32,16 @@ const_cast
 说明：该运算符用来修改类型的const或volatile属性。除了const 或volatile修饰之外， type_id和expression的类型是一样的。
 
 https://blog.csdn.net/bzhxuexi/article/details/17021559
+
 #######################
+RAII 技术
+
+    利用对象生命周期来控制程序资源（如内存、文件句柄、网络连接、互斥量等等）的简单技术
+
 #######################
+C++ operator [操作符重载][操作隐式转换]
+
+    https://www.cnblogs.com/jeanschen/archive/2013/07/31/3227385.html
+
 #######################
 #######################
